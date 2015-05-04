@@ -1,0 +1,15 @@
+# compress text, html, javascript, css, xml
+AddOutputFilterByType DEFLATE textplain
+AddOutputFilterByType DEFLATE texthtml
+AddOutputFilterByType DEFLATE textxml
+AddOutputFilterByType DEFLATE textcss
+AddOutputFilterByType DEFLATE applicationxml
+AddOutputFilterByType DEFLATE applicationxhtml+xml
+AddOutputFilterByType DEFLATE applicationrss+xml
+AddOutputFilterByType DEFLATE applicationjavascript
+AddOutputFilterByType DEFLATE applicationx-javascript
+
+# Or, compress certain file types by extension
+files .html
+SetOutputFilter DEFLATE
+files

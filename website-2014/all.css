@@ -1,0 +1,275 @@
+<style>
+	body, html {
+		margin:0;
+		padding:0;
+		font-family:arial;
+	}
+	
+	#header{
+	  width:100%;
+	  background-color:#FFFFCC;
+	  height:0px;
+	  position:absolute;
+	  top:0px;
+	  left:0px;
+	  z-index:2;
+	}
+	
+	#logo{
+	background-color:#FFFFCC;
+	height:150px;
+	width:250px;
+	position:absolute;
+	top:0px;
+	left:100px;
+	z-index:2;
+	}
+
+	#page_overlay {
+		width:100%;
+		z-index:2;
+	}
+	
+	#page_content {
+	width:100%;
+	height:52px;
+		font-size:30px;
+		padding-left:0px;
+		background-color:#000000;
+		color:#ff11ff;
+		margin-top:60px;
+		
+		/* Display on top of slideshow */
+		z-index:100;	
+		position:relative; /* This is very important! */	
+	}
+	#upperslid{
+	width:100%;
+	height:270px;
+	background-color:#000000;
+	position:absolute;
+	top:250px;
+	left:0px;
+	opacity:.67;
+	z-index:2;
+	}
+	
+	
+	
+	img#bg {
+		/* Stretch background */
+		position:fixed;
+		top:0;
+		left:0;
+		height:100%;
+		width:100%;
+		z-index:-1;
+	}
+	
+	#bg_grid {
+		position:fixed; /* This is very important! */
+		top:0;
+		left:0;
+		height:100%;
+		width:100%;
+	    background: url(grid.png) repeat;
+			
+		/* Display on top of background */
+		z-index:-1;
+	}
+
+	#image_description {
+		position:fixed; /* This is very important! */
+		right:-150px;
+		bottom:60px;
+		width:140px;
+		height:38px;
+		background-color:#dddddd;
+		filter:alpha(opacity=80);
+		-moz-opacity:0.8;
+		-khtml-opacity: 0.8;
+		opacity: 0.8;
+		z-index:2;
+		padding:5px;
+		font-size:10px;
+		line-height:12px;
+		color:#333333;
+	}
+	
+	a, a:link, a:visited, a:active {
+		text-decoration:none;
+		color:#A62F00;
+	}
+	
+	a:hover {
+		text-decoration:underline;
+	}
+/*Menu Bar*/
+	
+#nav,#nav ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+	position: relative;
+	
+}
+#menu{
+    height: 58px;
+left:190px;
+    position : relative;
+	margin:auto;
+}
+#nav {
+    clear: both;
+    font-size: 13px;
+    height: 60px;
+
+	border-radius:5px 5px 5px 5px;
+    padding: 0 0 0 9px;
+    position : relative;
+	
+}
+#nav ul {
+    background-color: #222;
+    border:1px solid #222;
+    border-radius: 0 5px 5px 5px;
+    border-width: 0 1px 1px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    left: -9999px;
+    overflow: hidden;
+    position: absolute;
+    top: -9999px;
+    z-index:3005;
+
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+
+    /*-moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+
+    -moz-transition: -moz-transform 0.1s linear;
+    -ms-transition: -ms-transform 0.1s linear;
+    -o-transition: -o-transform 0.1s linear;
+    -webkit-transition: -webkit-transform 0.1s linear;
+    transition: transform 0.1s linear;*/
+}
+#nav li {
+    background: url('images/menu_line.png') no-repeat scroll right 5px transparent;
+    float: left;
+    position: relative;
+	
+}
+#nav li a {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-weight: normal;
+    height: 25px;
+    padding: 23px 20px 0;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000000;
+}
+#nav li:hover > a {
+    color: #00B4FF;
+}
+#nav li:hover, #nav a:focus, #nav a:hover, #nav a:active {
+    background: none repeat scroll 0 0 #121212;
+    outline: 0 none;
+}
+#nav li:hover ul.subs {
+    left: 0;
+    top: 53px;
+    width: 180px;
+	
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+
+}
+#nav ul li {
+    background: none;
+    width: 100%;
+}
+#nav ul li a {
+    float: none;
+	border-top: 1px solid #ffffff;
+}
+#nav ul li:hover > a {
+    background-color: #121212;
+    color: #00B4FF;
+}
+#lavalamp {
+    background: url('images/lavalamp.png') no-repeat scroll 0 0 transparent;
+    height: 16px;
+    left: 40px;
+    position: absolute;
+    top: 0px;
+    width: 64px;
+	z-index: 1005;
+
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+#lavalamp:hover {
+    -moz-transition-duration: 3000s;
+    -ms-transition-duration: 3000s;
+    -o-transition-duration: 3000s;
+    -webkit-transition-duration: 3000s;
+    transition-duration: 3000s;
+}
+
+#nav li:nth-child(1):hover ~ #lavalamp {
+    left: 40px;
+}	
+	
+#nav li:nth-child(2):hover ~ #lavalamp {
+    left: 165px;
+}
+#nav li:nth-child(3):hover ~ #lavalamp {
+    left: 310px;
+}
+#nav li:nth-child(4):hover ~ #lavalamp {
+    left: 440px;
+}
+#nav li:nth-child(5):hover ~ #lavalamp {
+    left: 580px;
+}
+#nav li:nth-child(6):hover ~ #lavalamp {
+    left: 750px;
+}
+#nav li:nth-child(7):hover ~ #lavalamp {
+    left: 890px;
+}
+
+pre{
+
+    display: block;
+    float: left;
+    font-weight: normal;
+    height: 30px;
+    padding: 0px 0px 0;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000000;
+	font-size:13px;
+	font-family: 'Open Sans', sans-serif;
+	top:-12px;
+}
+#page-wrap { width: 50%; height: 100%; margin:0 30% 0 26%; padding: 40px; background: #fff; -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; overflow:auto;}
+		h1 {color:#2e3192; font-family: engraversgothic; font-size:60px;}
+		h2 {font-family: engraversgothic; font-size:30px;}
+		.horiz{margin-top:-20px;margin-left:-20px}.horiz td{padding:20px 0 0 20px}
+		input,textarea,select,.uneditable-input{display:inline-block;width:300px;max-width:100%;padding:4px;margin-bottom:9px;font-size:13px;color:#555555;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+</style>

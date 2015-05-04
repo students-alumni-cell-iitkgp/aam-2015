@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	Senior Class Gift 2015 - IIT Kharagpur
+</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap.material-design/0.1.5/css/material.min.css">  -->
+<!--<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap.material-design/0.1.5/css/material-wfont.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap.material-design/0.1.5/css/material.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap.material-design/0.1.5/css/ripples.min.css"> 
+<script src="https://cdn.jsdelivr.net/bootstrap.material-design/0.1.5/js/material.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bootstrap.material-design/0.1.5/js/ripples.min.js"></script> -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href='css/roboto.css' rel='stylesheet'    type='text/css'>
+<link href='fonts/font.css' rel='stylesheet'><!--
+		<link href="css/ripples.min.css" rel="stylesheet">
+		<link href="css/material.min.css" rel="stylesheet">
+
+		-->
+
+<style>
+
+body{
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+	font-family: 'oxygenregular','source_sans_proregular','Roboto', sans-serif;
+
+	/*background-color: rgb(0,179,179);*/
+	background-image:url('images/background.jpg');
+	background-color: white;
+}
+
+.navbar{
+	background-color: white;
+	color: black;
+	/*font-family: amblebold;*/
+}
+
+.navbar-inner{
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+.nav a{
+	background-color: white;
+	color: black;
+}
+
+.navbar a{
+	color: black;
+}
+
+.navbar a:hover{
+
+}
+
+.jumbotron{
+	background-color: transparent;
+	/*box-shadow: 1px 0px 2px 2px rgb(180,180,180);*/
+}
+
+.jumbotron h2{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	/*text-decoration: underline;*/
+	/*border-bottom: 2px solid black;*/
+}
+
+.navbar{
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+	text-transform: uppercase;
+}
+
+.navbar a{
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+.navbar a:hover{
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+.nav li a:hover {
+	background-color: rgb(216,165,11);
+	color: white;
+}
+
+#what{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+img{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#donate{
+	display: none;
+}
+.caption{
+	text-align: center;
+	font-size: 20px;
+	text-weight: bold;
+}
+/*
+.entry-icon {
+	position: absolute;
+	display: block;
+	text-align: center;
+	top: 50%;
+	left: 0;
+	right: 0;
+	font-size: 4rem;
+	color: rgb(237,237,237);
+	text-shadow: 0 0 3rem rgba(0,0,0,.15);
+	opacity: 0;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+	transition: opacity .2s linear;
+	transition-delay: 0.05s;
+}
+.entry-thumb {
+	position: relative;
+	display: block;
+	border-radius: 3px;
+}
+.entry-thumb img{
+	display: block;
+	width: 100%;
+	/*border: 1px solid #fff;*
+	/*border-radius: 3px;*
+	transition: opacity .2s linear;
+}
+.entry-thumb:hover img{
+	opacity: .55;
+}
+.entry-thumb:hover .entry-icon{
+	cursor: pointer;
+	opacity: 1;
+}
+*/
+.container {
+	background-color: rgb(242,242,242);
+	padding: 10px;
+	border-radius: 10px;
+}
+#micg {
+	/*border: 1px solid black;*/
+	background-color: rgb(242,242,242);
+	box-shadow: 1px 0px 2px 2px rgb(180,180,180);
+	padding: 20px;
+}
+.list-group-item{
+	margin-top: 15px;
+	box-shadow: 0px 0px 2px 2px rgb(180,180,180);
+	border-radius: 8px;
+}
+.thumbnail {
+	box-shadow: 0px 0px 2px 2px rgb(180,180,180);
+	border-radius: 8px;
+}
+
+#voteli:hover, #donateli:hover{
+	cursor: pointer;
+}
+
+h2{
+	color: rgb(255,255,255) !important; 
+	/*color: black;*/
+}
+
+#btn-donate{
+	background-color: rgb(216,165,11); 
+	color: white;
+}
+
+#btn-donate:hover{
+	background-color: white;
+	color: rgb(216,165,11);
+}
+#btn-vote{
+	background-color: rgb(216,165,11); 
+	color: white;
+}
+
+#btn-vote:hover{
+	background-color: white;
+	color: rgb(216,165,11);
+}
+
+.item img{
+	width: 480px;
+	height: 320px !important;
+}
+/*#manish{
+background:url('images/overlay.png'),url('images/myimprint.jpg');
+height: 100px;
+width: 100%;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+}*/
+.modal-body{
+	background-color: rgb(79, 69, 140);
+	color:white;
+}
+.modal-header{
+	background-color: rgb(216,165,11);
+	color:white;
+}
+.navbar-fixed-top{
+	border-bottom: 2px solid rgb(216,165,11);
+}
+
+h3{
+	text-align: center !important;
+}
+img{
+	-webkit-border-radius: 20px;
+}
+div[class = "col-md-4"] img{
+	width : 250px;
+	height : 260px;
+}
+h4{
+	text-align: justify;
+}
+</style>
+<script type="text/javascript" src = "js/simpleslider.js"></script>
+</head>
+<body>
+<br>
+
+<div class="navbar navbar-fixed-top cbp-af-header">
+	<div class="container-fluid">
+		<div class="navbar-header cbp-af-inner">
+			<button class="navbar-toggle" data-target=
+				".navbar-responsive-collapse" data-toggle="collapse" type=
+				"button"><span class="sr-only">Toggle navigation</span> <span class=
+					"icon-bar"></span> <span class="icon-bar"></span> <span class=
+					"icon-bar"></span></button> <a class="navbar-brand" href=
+				"#landing">Senior Class Gift 2015</a>
+		</div>
+
+		<div class="navbar-collapse collapse navbar-responsive-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active">
+				<a href="#what">What?</a>
+				</li>
+
+				<li>
+				<a href="#why">Why</a>
+				</li>
+
+				<li>
+				<a href="#options">Options</a>
+				</li>
+
+				<!-- <li>
+				<a href="#how">How to</a>
+				</li>
+ -->
+				<li>
+				<a href="#committee">The Committee</a>
+				</li>
+
+				<li>
+				<a href="#recognition">Recognition</a>
+				</li>
+
+				<li>
+				<a href="#classGift">Class Gift 2014</a>
+				</li>
+			</ul>
+
+			<ul class="social-icons nav navbar-nav navbar-right">
+				<li>
+				<a href="http://webteam.iitkgp.ernet.in/scgchoice/" id="btn-vote">Vote Now!</a>
+				</li>
+				<li>
+				<a href="http://webteam.iitkgp.ernet.in/scgdonate/" id="btn-donate">Donate Now!</a>
+				</li>
+				<!--
+						<li><a href="#"><i style="font-size: 20px; " class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i style="font-size: 20px; " class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i style="font-size: 20px; " class="fa fa-youtube"></i></a></li>
+						<li><a href="#"><i style="font-size: 20px; " class="fa fa-linkedin"></i></a></li>
+						-->
+			</ul>
+		</div>
+		<!--/.nav-collapse -->
+	</div>
+	<!--/.container-fluid -->
+</div>
+
+<div id="landing">
+	<div class="container-fluid" align="center">
+		<div class = "row">
+			<div class = "col-md-1"></div>
+			<div class = "col-md-10" id = "manish"><br><br>
+				<img src="images/myimprint.jpg" height = "10%" width = "100%" style = " -webkit-border-radius: 20px;
+				-moz-border-radius: 20px;
+				border-radius: 20px;">
+			</div>
+			<div class = "col-md-1"></div>
+		</div>
+	</div>
+</div>
+<!-- ./ landing end -->
+
+<div class="container-fluid">
+	<div class="col-md-10">
+		<div>
+			<div class="what" id="what">
+				<div class="jumbotron">
+					<h2 class="brandcol">
+						What is Senior Class Gift 2015 ?
+					</h2>
+
+					<div class="container">
+
+
+						<p style="text-align: justify; ">
+						IIT-KGP has a long and historic legacy of Alumni Giving Back
+						which has existed in one or the other form. The Graduating
+						Class Gift is yet another chapter to be added in KGP alumni
+						legacy initiated under My Imprint Program.<br><br>
+						It is a class-based effort directed towards raising
+						unrestricted fund partially used currently and partially
+						going towards Endowment. This particular part of the
+						Endowment would again be utilized for students' services
+						only. It is an opportunity for graduating students to take
+						their first step in being soon-to-be alumni by making their
+						Graduating Class Gift, the gift which impacts student life in
+						the KGP campus. This challenge offers seniors the chance not
+						only to make a gift, but also to leave behind their imprint.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- WHAT end -->
+
+			<div class="why" id="why">
+				<div class="jumbotron">
+					<h2 class="brandcol">
+						Why would you love to give?
+					</h2>
+
+					<div class="container">
+
+
+						<h4>
+							There are a ton of reasons to give. Here are three big ones:
+						</h4>
+
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="thumbnail">
+										<img src=
+										"images/whylove3.jpg"><br>
+
+
+										<div class="caption" style = "text-align:center">
+											<button class="btn btn-primary btn-lg" data-target=
+												"#why-donate-1" data-toggle="modal" type=
+												"button">Brand Value of IIT-KGP</button>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4" >
+									<div class="thumbnail">
+										<img src=
+										"images/whylove2.jpg"><br>
+
+
+										<div class="caption" style = "text-align:center">
+											<button class="btn btn-primary btn-lg" data-target=
+												"#why-donate-2" data-toggle="modal" type=
+												"button"> Importance of Endowment</button>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="thumbnail">
+										<img src=
+										"images/whylove1.jpg"><br>
+
+
+										<div class="caption" style = "text-align:center"  >
+											<button class="btn btn-primary btn-lg" data-target=
+												"#why-donate-3" data-toggle="modal" type=
+												"button">Alma Mater that changed <br> your lives forever</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3>
+											Why your gift matters, at a big institute like IIT
+											Kharagpur?
+										</h3>
+									</div>
+
+									<div class="panel-body" style = "font-size:20px">
+										Many of us don't realize that government fund can never cover all of the IIT-KGP experience. If IIT-KGP wants to start a new pre-professional program, support an innovative student project, or expand student life opportunities, philanthropy makes it possible.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- WHY end -->
+
+			<div class="options" id="options">
+				<div class="jumbotron">
+					<h2 class="brandcol">
+						Options of Senior Class Gift 2015
+					</h2>
+
+
+					<div class="container" style = "font-size:18px">
+						<div class = "panel-body">
+							<p>As the My Imprint Program says, <b>"By the students, For the Students"</b>, the following 9 options have been formulated by My Imprint Class Gift Committee, comprising of students only. Please click on The <b>Committee tab</b> to see the names of committee members.</p>
+							<p>
+						  The <b>9 options</b> have been categorized in <b>3 slabs</b>, according to the sign-ups raised by the Class of 2015 at the end of campaigning. You may make your choice of Class Gift in every slab. So, <b>vote for 3 class gifts, one in each slab</b>.
+							</p>
+
+						</div>
+						<h3 style="text-align:center">
+							300 - 450 Signups
+						</h3>
+
+						<div class="row">
+							<div class="col-md-4">
+								<div class="panel panel-default panel-danger">
+									<div class="panel-heading">
+										<h3>
+											Campus Benches
+										</h3>
+									</div>
+
+									<div class="panel-body" style="text-align: center;">
+										<img src="images/bench.jpg" id = "bench">
+										<button class="btn btn-primary btn-lg" data-target=
+											"#modal-option-1" data-toggle="modal" type=
+											"button">Learn More</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="panel panel-default panel-info">
+									<div class="panel-heading">
+										<h3>
+											Bus Stand
+										</h3>
+									</div>
+
+									<div class="panel-body" style="text-align: center;">
+										<img src="images/busstand.jpg">
+										<button class="btn btn-primary btn-lg" data-target=
+											"#modal-option-2" data-toggle="modal" type=
+											"button">Learn More</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="panel panel-default panel-success">
+									<div class="panel-heading">
+										<h3>
+											Library Section for Literary Fiction 
+										</h3>
+									</div>
+
+									<div class="panel-body" style="text-align: center;">
+										<img src="images/litsection.jpg">
+										<button class="btn btn-primary btn-lg" data-target=
+											"#modal-option-3" data-toggle="modal" type=
+											"button">Learn More</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<h3 style="text-align:center">
+								450 - 600 Signups
+							</h3>
+
+							<div class="col-md-4">
+								<div class="panel panel-default panel-danger">
+									<div class="panel-heading">
+										<h3>
+											Grand Pillar Clock
+										</h3>
+									</div>
+
+									<div class="panel-body" style="text-align: center;">
+										<img src="images/opt4.jpg">
+										<button class="btn btn-primary btn-lg" data-target=
+											"#modal-option-4" data-toggle="modal" type=
+											"button">Learn More</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="panel panel-default panel-info">
+									<div class="panel-heading">
+										<h3>
+											Water Fountain
+										</h3>
+									</div>
+
+									<div class="panel-body" style="text-align: center;">
+										<img src="images/opt5.jpg">
+										<button class="btn btn-primary btn-lg" data-target=
+											"#modal-option-5" data-toggle="modal" type=
+											"button">Learn More</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="panel panel-default panel-success">
+									<div class="panel-heading">
+										<h3>
+											Science Center
+										</h3>
+									</div>
+
+									<div class="panel-body" style="text-align: center;">
+										<img src="images/science.jpg">
+										<button class="btn btn-primary btn-lg" data-target=
+											"#modal-option-6" data-toggle="modal" type=
+											"button">Learn More</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<h3 style="text-align:center">
+								600+ Signups
+							</h3>
+
+							<div class="col-md-4">
+								<div class="panel panel-default panel-danger">
+									<div class="panel-heading">
+										<h3>
+											Art Gallery
+										</h3>
+									</div>
+
+									<div class="panel-body" style="text-align: center;">
+
+										<img src="images/opt7.jpg">
+										<button class="btn btn-primary btn-lg" data-target=
+											"#modal-option-7" data-toggle="modal" type=
+											"button">Learn More</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="panel panel-default panel-info">
+									<div class="panel-heading">
+										<h3>
+											Celebration Center
+										</h3>
+									</div>
+
+									<div class="panel-body" style="text-align: center;">
+
+										<img src="images/opt8.jpg">
+										<button class="btn btn-primary btn-lg" data-target=
+											"#modal-option-8" data-toggle="modal" type=
+											"button">Learn More</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="panel panel-default panel-success">
+									<div class="panel-heading">
+										<h3>
+											Music Recording Studio 
+										</h3>
+									</div>
+
+									<div class="panel-body" style="text-align: center;">
+
+										<img src="images/opt9.jpg">
+										<button class="btn btn-primary btn-lg" data-target=
+											"#modal-option-9" data-toggle="modal" type=
+											"button">Learn More</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- OPTION end -->
+
+		<!-- <div class="how" id="how">
+			<br>
+
+			<div class="jumbotron">
+				<h2 class="brandcol">
+					How to?
+				</h2>
+
+				<div class="container">
+					<div class="">
+						<ul class="nav nav-tabs" style="font-size:20px">
+							<li class="active" id="voteli">
+							<a onclick="vote()">How to Vote?</a>
+							</li>
+
+							<li id="donateli">
+							<a onclick="donate()">How to Donate?</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="">
+						<div class="" id="vote" style="font-size:17px">
+							<ul>
+								<li class="list-group-item">Voting would be captured
+								through ERP
+								</li>
+
+								<li class="list-group-item">An ERP link would be developed
+								on profiles of all the potential passing out students to
+								vote for their Senior Class Gift
+								</li>
+							</ul>
+						</div>
+
+						<div id="donate" style="font-size:17px">
+							<ul>
+								<li class="list-group-item">Donations would be captured
+								trough ERP
+								</li>
+
+								<li class="list-group-item">An ERP link would be developed
+								on profiles of all the potential passing out students to
+								donate their caution money
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<!-- HOW TO end -->
+
+		<div class="committee" id="committee">
+			<div class="jumbotron">
+				<h2 style="color: white; text-align: center">
+					MICGC ( My Imprint Class Gift Committee )
+				</h2>
+
+				<div id="micg">
+					<div class="row">
+						<h3 style="text-align: center">
+							Committee Members
+						</h3>
+
+						<div class="col-md-4">
+							<div class="thumbnail entry-thumb">
+								<img src="images/arpit.jpg" width = "250px" height = "280px">
+								<div class="caption entry-icon">
+									Arpit Gupta <br/>
+									G-Sec, Students' Alumni Cell  
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="thumbnail entry-thumb">
+								<img src="images/manish.jpg" width = "250px" height = "280px">
+								<div class="caption entry-icon">
+									Manish Goyal <br/>
+
+									G-Sec, Students' Alumni Cell 
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="thumbnail entry-thumb">
+								<img src="images/punj.jpg" width = "250px" height = "280px">
+								<div class="caption entry-icon">
+									Punj Rajan<br/>
+
+									Vice President, Gymkhana
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+
+						<div class="col-md-4">
+							<div class="thumbnail entry-thumb">
+								<img src="images/apoorv.jpg">
+								<div class="caption entry-icon">
+									Apoorv Jain <br/>
+
+									Ex VP, Gymkhana
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="thumbnail entry-thumb">
+								<img src="images/vedang.jpg">
+								<div class="caption entry-icon">
+									Vedang Deshpande <br/>
+									Ex G-Sec, Students' Alumni Cell 
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="thumbnail entry-thumb">
+								<img src="images/aditi.jpg">
+								<div class="caption entry-icon">
+									Aditi Sharma<br/>
+
+									Ex G-Sec, Students' Alumni Cell 
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class = "row">
+
+						<div class="col-md-4">
+							<div class="thumbnail entry-thumb">
+								<img src="images/vipul.jpg">
+								<div class="caption entry-icon">
+								    Vipul Allawadhi <br/>
+									UG Representative
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="thumbnail entry-thumb">
+								<img src="images/vamsi.jpg">
+								<div class="caption entry-icon">
+								    Vamshi Krishna Meda<br/>
+									PG Representative
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="thumbnail entry-thumb">
+								<img src="images/sourav.jpg">
+								<div class="caption entry-icon">
+								    Sourav Kumar Bagchi <br/>
+									RS Representative
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+					</div>
+
+					<div class="row">
+						<h3 style="text-align: center">
+							Sub Committee Members
+						</h3>
+
+						<div class="col-md-2">
+							<!-- 1st row -->
+
+							<ul class="list-group">
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/AZ.jpg" width="100px">
+								<span class="badge">Prithviraj Venturi<br>
+									Azad Hall</span>
+								</li>
+
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/BCR.jpg" width="100px">
+								<span class="badge">Swagata Acharya<br>
+									B.C. Roy Hall</span>
+								</li>
+
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/JCB.jpg" width="100px">
+								<span class="badge">Bibaswan Dey<br>
+									JCB Hall</span>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-md-2">
+							<!-- 2nd row -->
+
+							<ul class="list-group">
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/llr.jpg" width="100px">
+								<span class="badge">Yaswanth<br>
+									LLR Hall</span>
+								</li>
+
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/MT.jpg" width="100px">
+								<span class="badge">Payal Tambey<br>
+									MT Hall</span>
+								</li>
+
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/NH.jpg" width="100px">
+								<span class="badge">Suhail Hassan<br>
+									Nehru Hall</span>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-md-2">
+							<!-- 3rd row -->
+
+							<ul class="list-group">
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/PH.jpg" width="100px">
+								<span class="badge">Arence Chouhan<br>
+									Patel Hall</span>
+								</li>
+
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/RK.jpg" width="100px">
+								<span class="badge">Dinesh Jangid<br>
+									R.K Hall</span>
+								</li>
+
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/RLB.jpg" width="100px">
+								<span class="badge">Kruttika Apshankar<br>
+									R.L.B Hall</span>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-md-2">
+							<!-- 4th row -->
+
+							<ul class="list-group">
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/RP.jpg" width="100px">
+								<span class="badge">Abhijeet Raj<br>
+									R.P Hall</span>
+								</li>
+
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/SN.jpg" width="100px">
+								<span class="badge">Abhivyakti Dixit<br>
+									S.N Hall</span>
+								</li>
+
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/MS.jpg" width="100px">
+								<span class="badge">Koganti Triven<br>
+									M.S. Hall</span>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-md-2">
+							<!-- 5th row -->
+
+							<ul class="list-group">
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/praveen.jpg" width="100px">
+								<span class="badge">Praveen Shaw<br>
+									MMM Hall</span>
+								</li>
+
+								<li class="list-group-item" style="padding:15px"> 
+								<img height="100px" src="images/pooja.jpg" width="100px">
+								<span class="badge">Pooja Warhekar<br>
+									SAM Hall</span>
+								</li>
+
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/tamajit.jpg" width="100px">
+								<span class="badge">Tamajit Saha<br>
+									HJB Hall</span>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-md-2">
+							<!-- 6th row -->
+
+							<ul class="list-group">
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/sathvik.jpg" width="100px">
+								<span class="badge">Sathvik Dev<br>
+									VSRC Hall</span>
+								</li>
+
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/chiranjib.jpg" width="100px">
+								<span class="badge">Chiranjib Banerjee<br>
+									 VS Hall</span>
+								</li>
+
+								<li class="list-group-item" style="padding:15px">
+								<img height="100px" src="images/sunil manohar.jpg" width="100px">
+								<span class="badge">Sunil Manohar Behera<br>
+									BR Hall</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<h2>
+					Mechanism to select Senior Class Gift 2015
+				</h2>
+
+				<div class="panel panel-default" style="text-align:center;font-size:20px">
+					<div class="panel-body" style="border: 2px solid black;margin:5px" >
+						  Committee members freeze 9 options for Senior Class Gift, 3
+						options in each range
+					</div>
+					<span class="fa fa-arrow-down"></span>
+					<div class="panel-body" style="border: 2px solid black;margin:5px">
+						  These 9 options go to final year students for open voting
+					</div>
+					<span class="fa fa-arrow-down"></span>
+					<div class="panel-body" style="border: 2px solid black;margin:5px">
+						  Highest voted option in each range will be considered as
+						anticipated Senior Class Gift 2015
+					</div>
+					<span class="fa fa-arrow-down"></span>
+					<div class="panel-body" style="padding-right:80px;padding-left:80px;border: 2px solid black;margin:5px">
+						  At the end of the campaign, Senior Class Gift 2015 would be
+						decided based on the amount collected by the Graduating Batch
+						and would be announced in Alvida in the month of April
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- THE COMMITTEE end -->
+
+		<div class="recognition" id="recognition">
+			<div class="jumbotron">
+				<h2>
+					Recognition
+				</h2>
+
+				<div class="container">
+					<div class="col-md-6">
+						<div class="panel panel-default">
+							<div class="panel-heading" >
+								<h3 class="panel-title" style="font-size:20px">
+									DONOR RECOGNITION
+								</h3>
+							</div>
+
+							<div class="panel-body" style="font-size:18px;text-align:center">
+
+								All Donors will be given Class Gift 2015 t-shirts.
+
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title" style="font-size:20px">
+									ALUMNI SERVICES
+								</h3>
+							</div>
+
+							<div class="panel-body" style="font-size:18px;text-align:center">
+								Alumni Card and Yearbook 2015
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- THE RECOGNITION end -->
+		<div class="committee" id="classGift">
+			<div class="jumbotron">
+				<h2 style="color: white; text-align: center">
+
+					CLASS GIFT 2014 - SUPPORT TO INTERNATIONAL PARTICIPATION
+				</h2>
+
+				<div class="container">
+					<div class="col-md-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3  style = "text-align:center;font-size:21px">
+									70% of Class of 2014 voted for the gift and close to 350 students contributed their caution money.
+								</h3>
+								<h3 style = "text-align:center;font-size:24px">Some of the initiatives under My Imprint Program to support students' services are</h3>
+							</div>
+
+							<div class="panel-body">
+								<div class = "row">
+									<div class = "col-md-4">
+										<img src="images/hult.jpg">
+										<h4>  Team Changemakers - Hult Prize 2013 at San Francisco</h4>
+									</div>
+									<div class = "col-md-4">
+										<img src="images/agv.jpg">
+										<h4> Team AGV - Intelligent Ground Vehicle Competition 2013 at Michigan</h4>
+									</div>
+									<div class = "col-md-4">
+										<img src="images/robosoccer.jpg">
+										<h4> RoboSoccer Team - FIRA World Cup 2013 at Kuala Lumpur, Malaysia</h4>
+									</div>
+
+								</div>
+								<hr>
+								<div class = "row">
+									<div class = "col-md-4">
+										<img src="images/sme.jpg">
+										<h4>International SME Student Design Competition 2013 at Seattle</h4>
+									</div>
+									<div class = "col-md-4">
+										<img src="images/u.png">
+										<h4>Support for competition at Windsor University, Canada</h4>
+									</div>
+									<div class = "col-md-4">
+										<img src="images/moot.png">
+										<h4>National Moot Court Competition on Human Rights</h4>
+									</div>
+
+								</div>
+								<hr>
+								<div class = "row">
+									<div class = "col-md-4">
+										<img src="images/w.jpg">
+										<h4>Clinton Global Initiative (CGI) 2013 at University of Washington, St Louis</h4>
+									</div>
+									<div class = "col-md-4">
+										<img src="images/griftech-logo.jpg">
+										<h4>Students' Innovation Pavilion in GRIFTECH 2013</h4>
+
+									</div>
+									<div class = "col-md-4">
+										<img src="images/kart.jpg">
+										<h4>Team KART - SAE Formula 1 Competition at UK</h4>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="committee" id="team">
+			<div class="jumbotron">
+				<h2 style="color: white; text-align: center">
+					Students' Alumni Cell Team
+				</h2>
+
+				<div class="container">
+					<div class="col-md-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3  style = "text-align:center">
+									Office of Alumni Affairs and International Relations
+								</h3>
+								<h3>
+									Academic Year 2014-15
+								</h3>
+							</div>
+
+							<div class="panel-body">
+								<div class = "row">
+									<img src="images/team.jpg" width="100%">
+								</div>
+
+								<br/>
+
+								Name of the team members: <br/>
+								Row 4: Rahul Mishra, Satyajit Kumar, Arpit Gupta, Aditi Srivastava, 
+								Chandreyee Bhaumik, Bhupender Singh, Atal Ashutosh Agarwal,
+								Naman Nishesh, Manish Goyal. <br/>
+
+								Row 3: Arihant Binaykia, Pranshu Jain, Hiten Chowdhary, Raja Barnwal,
+								Soumyadeep Ghosh, Raunak Chitlangia, Sanket, Shresth Kumar,
+								Pratik Raj. <br/>
+
+								Row 2: Siddharth Kannan, Pooja Lunia, Manognya Deepthi G, Drishti Hora,
+								Medha Bharati, Ashish Verma. <br/>
+
+								Row 1: Akshat Chandanam, Akash Tulsani, Ankit Sharma, Rihen Chheda, 
+								Rohan Gupta, Abhishek Anand, Abhishek Niranjan. <br/>
+
+
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+
+		</div> 
+
+		<div class="committee">
+
+
+			<div class="jumbotron">
+				<h2 style="color: white; text-align: center">
+					Contact us
+				</h2>
+
+				<div class="container">
+					<div class="col-md-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3  style = "text-align:center">
+									<b>
+										Office of Alumni Affairs and International Relations
+									</b>
+								</h3>
+								<h3>
+									<a href="mailto:alumni@hijli.iitkgp.ernet.in">alumni@hijli.iitkgp.ernet.in</a> <br/>
+									+91 3222 282236
+								</h3>
+
+								<h3  style = "text-align:center">
+									<b>
+										For further details contact
+									</b>
+								</h3>
+								<h3>
+									
+
+									Manish Goyal <br/>
+
+									<a href="mailto:gmanish1993@gmail.com">gmanish1993@gmail.com</a> <br/>
+									+91 8768669693 <br/>
+									<br/>
+
+									Atal Ashutosh Agarwal<br/>
+									<a href="mailto:atalashutosh@gmail.com">atalashutosh@gmail.com</a> <br/>
+									+91 9002296766 <br/> <br/>
+
+								</h3>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+		</div>
+
+
+	</div>
+
+	<div class="col-md-2">
+		<div class="jumbotron">
+			<br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/>
+			<br/>
+			<br/>
+			<br/>
+			<p align="center">
+			<div class = "row">
+				<div class="panel panel-default">
+					<div class="panel-body" style = "background-color:rgb(216,165,11)">
+
+						Did You know that there is an <b>80%</b> correlation between World's Top Ranking Institutions and their Endowment size?
+					</div>
+				</div>
+
+			</div>
+			</p>
+			<br>          <br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/>
+			<br/>
+			<br/>
+			<br/>
+			<br>
+			<br>
+			<p align="center">
+			<div class = "row">
+				<div class="panel panel-default">
+					<div class="panel-body" style = "background-color:rgb(216,165,11)">
+
+						You're graduating. Although you are going to miss different parts of your time in KGP - be it taking a stroll in Scholars' Avenue or going to 'Chhedis' at dusk or mugging whole night before the exams -there have been commonalities that unite you. Some sort of "KGPian-ness"
+					</div>
+				</div>
+
+			</div>
+			<br/>          <br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/>
+			<br/>
+			<br/>
+			</p>
+			<br>
+			<br>
+			<br>
+			<p align="center">
+			<div class = "row">
+				<div class="panel panel-default">
+					<div class="panel-body" style = "background-color:rgb(216,165,11)">
+
+						You will not share the campus with the incoming classes of IIT-KGP, but you will certainly want them to have access to the same variety of KGP experiences as you did. The Senior Class Gift, supported by the graduating class marks the first step for you to give back.
+					</div>
+				</div>
+
+			</div>
+			</p>
+		</div>
+	</div>
+</div>
+
+<div id="footer" style="text-align: center; background: white; font-family: Arial; font-size: 20px; margin:50px 260px 50px 50px ">
+
+	<hr/>
+
+	Built by Arihant Binaykia, Hiten Chowdhary, Siddharth Kannan and Rahul Mishra. <br/>
+
+	Students' Alumni Cell, IIT Kharagpur, Copyright 2014. <br/>
+
+	This page uses Bootstrap and jQuery. <br/> <br/>
+
+</div>
+
+<!-- Modals Begin -->
+<!-- Button trigger modal 
+		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-option-1">
+			Launch demo modal
+		</button>
+
+		-->
+<!-- Modal -->
+
+<div class="modal fade" id="modal-option-1" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type=
+					"button"><span>&times;</span><span class=
+						"sr-only">Close</span></button>
+				<h4 class="modal-title" id="modal-option-1Label" style=
+					"text-align: center">
+					Campus Benches
+				</h4>
+			</div>
+
+			<div class="modal-body">
+				The class can donate 10 stone and wood benches placed throughout 2.2. Designed to be permanent fixtures, this will look elegant and prominent all around 2.2
+			</div>
+
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type=
+					"button">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-option-2" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type=
+					"button"><span>&times;</span><span class=
+						"sr-only">Close</span></button>
+				<h4 class="modal-title" id="modal-option-1Label" style=
+					"text-align: center;">
+					Bus Stands
+				</h4>
+			</div>
+
+			<div class="modal-body">
+				This can be the most useful option for students. This will be designed in a manner to have facilitation for branding and promotion.
+				Minimum 10 stands would be required all around the campus
+			</div>
+
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type=
+					"button">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-option-3" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type=
+					"button"><span>&times;</span><span class=
+						"sr-only">Close</span></button>
+				<h4 class="modal-title" id="modal-option-1Label" style=
+					"text-align: center;">
+					Literary Section
+				</h4>
+			</div>
+
+			<div class="modal-body">
+				New library shelves dedicated to literary fiction (shelves along with books as class gift)
+			</div>
+
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type=
+					"button">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-option-4" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type=
+					"button"><span>&times;</span><span class=
+						"sr-only">Close</span></button>
+				<h4 class="modal-title" id="modal-option-1Label" style=
+					"text-align: center;">
+					Grand Pillar Clock
+				</h4>
+			</div>
+
+			<div class="modal-body">
+				Class may gift this unique Street Clock, preferably on Gol Chakkar “Tikka” , which will be recognized as a landmark for 2015 Batch and will become  a historical monument in coming years.
+			</div>
+
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type=
+					"button">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-option-5" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type=
+					"button"><span>&times;</span><span class=
+						"sr-only">Close</span></button>
+				<h4 class="modal-title" id="modal-option-1Label" style=
+					"text-align: center;">
+					Water Fountain
+				</h4>
+			</div>
+
+			<div class="modal-body">
+				A water fountain with 2015 placed on top of a stone/marble structure in the middle of it
+			</div>
+
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type=
+					"button">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-option-6" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type=
+					"button"><span>&times;</span><span class=
+						"sr-only">Close</span></button>
+				<h4 class="modal-title" id="modal-option-1Label" style=
+					"text-align: center;">
+					Science Center
+				</h4>
+			</div>
+
+			<div class="modal-body">
+				A centre for preservation of innovative projects undertaken by KGPians (Tech GC in particular).<br>
+
+				We see a lot of innovative ideas come to reality in various Tech Events throughout the year. Most of these ideas go unharnessed and are lost in the sands of time. The main aim is to preserve as well as show case the talent in research and help them in recognition via patent.
+			</div>
+
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type=
+					"button">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-option-7" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type=
+					"button"><span>&times;</span><span class=
+						"sr-only">Close</span></button>
+				<h4 class="modal-title" id="modal-option-1Label" style=
+					"text-align: center;">
+					Art Gallery
+				</h4>
+			</div>
+
+			<div class="modal-body">
+				KGP Campus is flooded with artistic talent but no place to preserve it and showcase it for the long. The batch can  come up with the set up of Art Gallery which would provide a platform to showcase talents related to arts, paintings, photos and other innovation
+
+			</div>
+
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type=
+					"button">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-option-8" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type=
+					"button"><span>&times;</span><span class=
+						"sr-only">Close</span></button>
+				<h4 class="modal-title" id="modal-option-1Label" style=
+					"text-align: center;">
+					Celebration Center
+				</h4>
+			</div>
+
+			<div class="modal-body">
+				A celebration centre where students can celebrate birthdays, etc (should have necessary facilities)
+			</div>
+
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type=
+					"button">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-option-9" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type=
+					"button"><span>&times;</span><span class=
+						"sr-only">Close</span></button>
+				<h4 class="modal-title" id="modal-option-1Label" style=
+					"text-align: center;">
+					Music Recording Studio
+				</h4>
+			</div>
+
+			<div class="modal-body">
+				It would be the most desirable gift for the students passionate for music. Also it can be used for Institute recording projects.
+			</div>
+
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type=
+					"button">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="why-donate-1" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type=
+					"button"><span>&times;</span><span class=
+						"sr-only">Close</span></button>
+				<h4 class="modal-title" id="modal-option-1Label" style=
+					"text-align: center;">
+					Brand Value Of IIT Kgp
+				</h4>
+			</div>
+
+			<div class="modal-body">
+				Your gift would help the Institute in progressing towards being in World's top 20 technological Institute [IIT-KGP VISION 2020]. Institute Ranking increases the value of degrees and so the brand value of campus students as well as alumni across the globe.
+			</div>
+
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type=
+					"button">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="why-donate-2" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type=
+					"button"><span>&times;</span><span class=
+						"sr-only">Close</span></button>
+				<h4 class="modal-title" id="modal-option-1Label" style=
+					"text-align: center;">
+					Importance of Endowment
+				</h4>
+			</div>
+
+			<div class="modal-body">
+				Institute's alumni giving rate is an important measure which is used to rank and evaluate IIT-KGP and there is an 80% correlation between World's Top Ranking Institution and their Endowment size.
+			</div>
+
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type=
+					"button">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="why-donate-3" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type=
+					"button"><span>&times;</span><span class=
+						"sr-only">Close</span></button>
+				<h4 class="modal-title" id="modal-option-1Label" style=
+					"text-align: center;">
+					Alma Mater that changed your lives forever
+				</h4>
+			</div>
+
+			<div class="modal-body">
+				IIT-KGP has provided you with outstanding, academic resources, lasting friendships and countless memories over the years you spent at KGP campus. Now it is your chance to pay tribute to your Alma Mater that changed your lives forever. Senior Class Gift provides you with the 1st chance to give back to Alma Mater to enrich the students' experience of future generation.
+			</div>
+
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type=
+					"button">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modals end -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+
+<script>
+$(document).ready(function(){
+		$('.carousel').carousel({
+interval: 2000
+});
+		});
+
+function vote () {
+	document.getElementById("donate").style.display = "none";
+	document.getElementById("vote").style.display = "inline";
+	$("#voteli").addClass("active");
+	$("#donateli").removeClass("active");
+}
+
+function donate () {
+	document.getElementById("vote").style.display = "none";
+	document.getElementById("donate").style.display = "inline";
+	$("#voteli").removeClass("active");
+	$("#donateli").addClass("active");
+}
+</script> <script>
+
+// code for smooth scrolling when navigating within the page
+
+$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+			$('html,body').animate({
+scrollTop: target.offset().top
+}, 1000);
+			return false;
+			}
+			}
+			});
+		});
+</script>
+</body>
+</html>

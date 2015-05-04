@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	galleryTitle=""
+	useThumbDots="true"
+	useFullscreenExpand="true"
+	enableAutoPlay="true"
+	autoPlayOnLoad="TRUE"
+
+>
+  <image imageURL="gallery1/1.JPG"
+	thumbURL="thumbs/1.jpg"
+	linkURL="gallery1/1.JPG"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\1.jpg">
+    <title><![CDATA[open]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/2.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/2.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+   <image imageURL="gallery1/3.jpg"
+	thumbURL="thumbs/3.jpg"
+	linkURL="gallery1/3.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\3.jpg">
+    <title><![CDATA[3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/4.jpg"
+	thumbURL="thumbs/4.jpg"
+	linkURL="gallery1/4.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\4.jpg">
+    <title><![CDATA[4]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/5.jpg"
+	thumbURL="thumbs/5.jpg"
+	linkURL="gallery1/5.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery_images\5.jpg">
+    <title><![CDATA[5]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/6.jpg"
+	thumbURL="thumbs/6.jpg"
+	linkURL="gallery1/6.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\6.jpg">
+    <title><![CDATA[6]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/7.jpg"
+	thumbURL="thumbs/7.jpg"
+	linkURL="gallery1/7.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\7.jpg">
+    <title><![CDATA[7]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/8.jpg"
+	thumbURL="thumbs/8.jpg"
+	linkURL="gallery1/8.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\8.jpg">
+    <title><![CDATA[8]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/9.jpg"
+	thumbURL="thumbs/9.jpg"
+	linkURL="gallery1/9.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\9.jpg">
+    <title><![CDATA[9]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/10.jpg"
+	thumbURL="thumbs/10.jpg"
+	linkURL="gallery1/10.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\10.jpg">
+    <title><![CDATA[10]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/11.jpg"
+	thumbURL="thumbs/11.jpg"
+	linkURL="gallery1/11.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\11.jpg">
+    <title><![CDATA[11]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/12.jpg"
+	thumbURL="thumbs/12.jpg"
+	linkURL="gallery1/12.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\12.jpg">
+    <title><![CDATA[12]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/13.jpg"
+	thumbURL="thumbs/13.jpg"
+	linkURL="gallery1/13.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\13.jpg">
+    <title><![CDATA[13]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/14.jpg"
+	thumbURL="thumbs/13.jpg"
+	linkURL="gallery1/14.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\13.jpg">
+    <title><![CDATA[13]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/15.jpg"
+	thumbURL="thumbs/13.jpg"
+	linkURL="gallery1/15.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\13.jpg">
+    <title><![CDATA[13]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  
+
+  <image imageURL="gallery1/16.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/16.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/17.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/17.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/18.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/18.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/19.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/19.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/20.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/20.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/21.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/21.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/22.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/22.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/23.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/23.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/24.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/24.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/25.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/25.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/26.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/26.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/27.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/27.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/28.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/28.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/29.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="gallery1/29.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+ 
+  <image imageURL="gallery1/30.jpg"
+	thumbURL="thumbs/3.jpg"
+	linkURL="gallery1/30.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\3.jpg">
+    <title><![CDATA[3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/31.jpg"
+	thumbURL="thumbs/3.jpg"
+	linkURL="gallery1/31.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\3.jpg">
+    <title><![CDATA[3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/32.jpg"
+	thumbURL="thumbs/3.jpg"
+	linkURL="gallery1/32.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\3.jpg">
+    <title><![CDATA[3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/33.jpg"
+	thumbURL="thumbs/3.jpg"
+	linkURL="gallery1/33.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\3.jpg">
+    <title><![CDATA[3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/34.jpg"
+	thumbURL="thumbs/3.jpg"
+	linkURL="gallery1/34.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\3.jpg">
+    <title><![CDATA[3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  
+  <image imageURL="gallery1/35.jpg"
+	thumbURL="thumbs/3.jpg"
+	linkURL="gallery1/35.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\3.jpg">
+    <title><![CDATA[3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/36.jpg"
+	thumbURL="thumbs/3.jpg"
+	linkURL="gallery1/36.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\3.jpg">
+    <title><![CDATA[3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/37.jpg"
+	thumbURL="thumbs/3.jpg"
+	linkURL="gallery1/37.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\3.jpg">
+    <title><![CDATA[3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/38.jpg"
+	thumbURL="thumbs/3.jpg"
+	linkURL="gallery1/38.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\3.jpg">
+    <title><![CDATA[3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/39.jpg"
+	thumbURL="thumbs/3.jpg"
+	linkURL="gallery1/39.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\3.jpg">
+    <title><![CDATA[3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/40.jpg"
+	thumbURL="thumbs/4.jpg"
+	linkURL="gallery1/40.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\4.jpg">
+    <title><![CDATA[4]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/41.jpg"
+	thumbURL="thumbs/4.jpg"
+	linkURL="gallery1/41.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\4.jpg">
+    <title><![CDATA[4]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/42.jpg"
+	thumbURL="thumbs/4.jpg"
+	linkURL="gallery1/42.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\4.jpg">
+    <title><![CDATA[4]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/43.jpg"
+	thumbURL="thumbs/4.jpg"
+	linkURL="gallery1/43.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\4.jpg">
+    <title><![CDATA[4]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/44.jpg"
+	thumbURL="thumbs/4.jpg"
+	linkURL="gallery1/44.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\4.jpg">
+    <title><![CDATA[4]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/45.jpg"
+	thumbURL="thumbs/4.jpg"
+	linkURL="gallery1/45.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\4.jpg">
+    <title><![CDATA[4]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/46.jpg"
+	thumbURL="thumbs/4.jpg"
+	linkURL="gallery1/46.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\4.jpg">
+    <title><![CDATA[4]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery1/47.jpg"
+	thumbURL="thumbs/4.jpg"
+	linkURL="gallery1/47.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Rahul\Music\Playlists\4.jpg">
+    <title><![CDATA[4]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+
+
+</juiceboxgallery>
